@@ -28,8 +28,8 @@ int binarySearch( int target_element, int* sorted_array, int left_bound, int rig
         }
     }
 
-    if ( abs(target_element - sorted_array[left_bound]) <= 
-         abs(target_element - sorted_array[right_bound]) )
+    if ( abs( target_element - sorted_array[left_bound] ) <= 
+         abs( target_element - sorted_array[right_bound] ) )
     {
         return left_bound;
     }
@@ -142,4 +142,6 @@ int main()
     // testFindTwins();
 
     run( std::cin, std::cout );
+
+    return 0;
 }

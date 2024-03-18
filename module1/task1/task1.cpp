@@ -79,4 +79,6 @@ int main()
     // testCountOneBits();
 
     run( std::cin, std::cout );
+
+    return 0;
 }   

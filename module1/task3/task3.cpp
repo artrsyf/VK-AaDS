@@ -274,7 +274,7 @@ void run( std::istream& input, std::ostream& output )
 }
 
 template <typename T>
-int Deque<T>::getSize () const
+int Deque<T>::getSize() const
 {
     return this->size();
 }
